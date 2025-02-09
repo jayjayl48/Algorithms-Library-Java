@@ -2,8 +2,16 @@ package euclidGCD;
 
 import java.util.Scanner;
 
-//This program demonstrates Euclid's Algorithm for computing gcd (m,n) 
 
+
+/**
+* This program demonstrates Euclid's Algorithm for computing gcd (m,n) 
+*
+* Last modified: Febuary 8th, 2025
+*
+* @author Jason Lowey
+* 
+*/
 public class Main {
 
 	public static void main(String[] args) {
