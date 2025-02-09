@@ -12,6 +12,7 @@ import java.util.Scanner;
 * @author Jason Lowey
 * 
 */
+
 public class Main {
 
 	public static void main(String[] args) {
