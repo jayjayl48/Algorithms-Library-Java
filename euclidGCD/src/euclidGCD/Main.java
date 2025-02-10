@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
 * This program demonstrates Euclid's Algorithm for computing gcd (m,n) 
 *
-* Last modified: Febuary 8th, 2025
+* Last modified: Febuary 10th, 2025
 *
 * @author Jason Lowey
 * 
@@ -59,6 +59,11 @@ public class Main {
 				
 
 			}
+
+			else if(choice.startsWith("i") == false || choice.startsWith("r") == false){
+				System.out.println("Program terminated! Please restart and enter proper choice.");
+			}
+		
 			System.out.println("\nThank you for using this program!");
 
 		}
