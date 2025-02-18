@@ -1,7 +1,7 @@
 /**
 * This program demonstrates Euclid's Algorithm for computing gcd (m,n) 
 *
-* Last modified: Febuary 10th, 2025
+* Last modified: February 10th, 2025
 *
 * @author Jason Lowey
 * 
