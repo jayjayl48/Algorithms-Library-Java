@@ -1,5 +1,5 @@
 /**
-* This program demonstrates Selection Sort on an array of 7 elements.
+* This program demonstrates the Selection Sort algorithm on an array of 7 elements.
 * 
 * The complexity of this sorting algorithm is O(n^2).
 * 
