@@ -3,7 +3,7 @@
 * 
 * The complexity of this sorting algorithm is O(n^2).
 * 
-* Last modified: February 19th, 2025
+* Last modified: February 26th, 2025
 *
 * @author Jason Lowey
 * 
