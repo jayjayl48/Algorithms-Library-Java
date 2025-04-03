@@ -8,6 +8,23 @@
 */
 
 class LinearSearchTest {
+
+     public static int linearSearch(int [] array, int target){
+        
+        boolean found;
+        
+        for(int i = 0; i < array.length; i++){
+            
+            if(target == array[i]){
+               return i;
+                
+            }
+        }
+        
+        return -1;     
+    }
+
+
     public static void main(String[] args) {
         
          int [] array = {48,19,13,72,9,51,47,3};
@@ -22,20 +39,5 @@ class LinearSearchTest {
          else{
              System.out.println("target found at index: " + index);
          }
-      
-    }
-    public static int linearSearch(int [] array, int target){
-        
-        boolean found;
-        
-        for(int i = 0; i < array.length; i++){
-            
-            if(target == array[i]){
-               return i;
-                
-            }    
-        }
-        
-        return -1;
     }
 }
