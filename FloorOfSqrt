@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class FloorOfSqrt {
+public class FloorOfSqrt {
   public static void main(String[] args) {
     boolean run = true;
 
