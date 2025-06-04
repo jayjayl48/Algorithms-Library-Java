@@ -30,6 +30,7 @@ class FloorOfSqrt {
   }
 
   public static int floorOfSqrt(int n) {
+
     double nSqrt = Math.sqrt(n);
     int answer = (int) Math.floor(nSqrt);
 
