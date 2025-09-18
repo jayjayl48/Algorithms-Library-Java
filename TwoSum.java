@@ -1,5 +1,18 @@
+/**
+* This program finds two elements of an array that add up to a specific target sum.
+*
+* Last modified: August 28th, 2025
+*
+* @author Jason Lowey
+* 
+*/
+
 class Solution {
     public static int[] twoSum(int[] nums, int target) {
+        
+        if(nums == null || nums.length < 2){
+            return null;
+        }
 
         for (int i = 0; i < nums.length; i++) {
 
@@ -8,10 +21,6 @@ class Solution {
                 if (nums[i] + nums[j] == target) {
 
                     return new int[] { i, j };
-
-                }
-
-                else {
 
                 }
 
@@ -27,7 +36,9 @@ class Solution {
         int[] nums = { 2, 7, 11, 15 };
         int target = 9;
 
-        twoSum(nums, target);
+        int[] result = twoSum(nums, target);
+        
+        System.out.println("Indices: [" + result[0] + "," + result[1] + "]" + " add up to " + target);
 
     }
 
