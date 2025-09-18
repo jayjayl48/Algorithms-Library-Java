@@ -7,6 +7,7 @@
 * 
 */
 
+
 class Solution {
     public static int[] twoSum(int[] nums, int target) {
         
@@ -38,7 +39,7 @@ class Solution {
 
         int[] result = twoSum(nums, target);
         
-        System.out.println("Indices: [" + result[0] + "," + result[1] + "]" + " add up to " + target);
+        System.out.println("Element at index " + result[0] + " and index " + result[1]  + " add up to " + target);
 
     }
 
